@@ -1,4 +1,4 @@
-/* Header.css */
+Header.css
 
   
   .header-title {
@@ -26,15 +26,16 @@
 
 .header{
   position: fixed;
-  height: 110px;
+
   width: 100%;
   top: 0;
   left: 0;
   transition: all .6s;
   z-index : 700;
-  background-color: #fff;
+
+
   }
-  .header .fixed-wrap {
+  .header .HEAD {
     position: fixed;
     top: 0;
     left: 0;
@@ -42,7 +43,7 @@
     background-color: transparent;
     transition: all .6s;
 }
-.header .header-inner {
+.header .headerInner {
   position: relative;
   display: flex;
   justify-content: right;
@@ -232,7 +233,7 @@
   height: 57px;
   font-size: 38px;
   font-weight: 600;
-  color: #777777;
+  color: #000;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   vertical-align: baseline;
@@ -275,17 +276,7 @@
   }
 }
 
-.open-nav-wrap .inner-wrap {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  max-width: 1600px;
-  margin: 0 auto;
-  transition: all .6s;
-  display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 @media screen and (max-width: 991.98px) {
   .open-nav-wrap .inner-wrap {
@@ -366,18 +357,6 @@
   }
 }
 
-.open-nav-wrap .menu-list>a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 57px;
-  font-size: 38px;
-  font-weight: 600;
-  color: #777777;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  transition: all .6s
-}
 
 .main-nav .open-nav-wrap .menu-list>a {
   color: #000
